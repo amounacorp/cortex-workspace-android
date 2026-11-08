@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cortex Workspace : logo plein cadre -->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android" android:src="@drawable/cortex_icon_full" android:gravity="fill" />

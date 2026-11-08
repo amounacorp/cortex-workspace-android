@@ -155,7 +155,7 @@ android {
         productFlavors {
             // used for f-droid
             register("generic") {
-                applicationId = "com.nextcloud.client"
+                applicationId = "app.cortexworkspace.android"
                 dimension = "default"
             }
 

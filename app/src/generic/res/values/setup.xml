@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cortex Workspace (Amouna Corp) : personnalisation de l'application Nextcloud Android.
+  SPDX-License-Identifier: GPL-2.0-only
+-->
+<resources>
+    <string name="app_name">Cortex Workspace</string>
+    <string name="account_type">app.cortexworkspace</string>
+    <string name="authority">app.cortexworkspace.android.provider</string>
+    <string name="users_and_groups_search_authority">app.cortexworkspace.android.providers.UsersAndGroupsSearchProvider</string>
+    <string name="users_and_groups_share_with">app.cortexworkspace.android.providers.UsersAndGroupsSearchProvider.action.SHARE_WITH</string>
+    <string name="document_provider_authority">app.cortexworkspace.documents</string>
+    <string name="file_provider_authority">app.cortexworkspace.files</string>
+    <string name="image_cache_provider_authority">app.cortexworkspace.android.providers.imageCache</string>
+    <string name="db_file">cortexworkspace.db</string>
+    <string name="db_name">cortexworkspace</string>
+    <string name="data_folder">cortexworkspace</string>
+    <string name="default_display_name_for_root_folder">Cortex Workspace</string>
+    <string name="name_for_branded_user_agent">Cortex Workspace</string>
+
+    <!-- Connexion : l'email donne l'espace de l'entreprise (aiguilleur de Cortex Control), pas d'adresse de serveur a saisir -->
+    <string name="webview_login_url" translatable="false">https://app.cortexworkspace.app/api/mobile/login</string>
+    <bool name="show_server_url_input">false</bool>
+    <bool name="show_provider_or_own_installation">false</bool>
+    <string name="provider_registration_server">https://app.cortexworkspace.app/inscription</string>
+    <string name="login_data_own_scheme" translatable="false">cortexws</string>
+    <bool name="is_branded_client">true</bool>
+
+    <bool name="show_whats_new">false</bool>
+    <bool name="show_outdated_server_warning">false</bool>
+    <bool name="recommend_enabled">false</bool>
+    <bool name="participate_enabled">false</bool>
+    <bool name="privacy_enabled">false</bool>
+    <string name="url_help">https://cortexworkspace.app/#faq</string>
+    <string name="sourcecode_url" translatable="false">https://github.com/amounacorp/cortex-workspace-android</string>
+    <string name="url_app_download">"https://cortexworkspace.app"</string>
+    <string name="url_server_install">https://cortexworkspace.app</string>
+
+    <!-- Couleurs de Cortex Workspace : primaire #0070E0, fond #0050C0, cyan #00B0F0 -->
+    <color name="primary">#0070E0</color>
+    <color name="primary_dark">#0050C0</color>
+    <color name="color_accent">#00B0F0</color>
+    <color name="login_text_color">#ffffff</color>
+    <color name="login_text_hint_color">#CFE3FA</color>
+</resources>
